@@ -13,12 +13,12 @@
 
 | 번호 | 문제 | 풀이 날짜 | 풀이 |
 | ---: | --- | --- | --- |
-| 1 | ListToStr | 2026-05-29 | [src/LV0/ListToStr.java](src/LV0/ListToStr.java) |
-| 2 | MixTwoString | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
-| 3 | NumDivide | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
-| 4 | RepeatString | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
-| 5 | StringPrint | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
-| 6 | UpperToLower | 2026-05-29 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
+| 1 | MixTwoString | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
+| 2 | NumDivide | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
+| 3 | RepeatString | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
+| 4 | StringPrint | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
+| 5 | UpperToLower | 2026-05-29 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
+| 6 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
 
 ### demo
 
