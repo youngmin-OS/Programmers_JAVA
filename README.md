@@ -52,8 +52,8 @@ src
 
 ## 풀이 현황
 
-- 총 풀이 수: 7
-- 레벨별 풀이: LV0 6문제, demo 1문제
+- 총 풀이 수: 8
+- 레벨별 풀이: LV0 6문제, demo 2문제
 
 ## 문제 목록
 
@@ -73,9 +73,9 @@ src
 | 번호 | 문제 | 풀이 날짜 | 풀이 |
 | ---: | --- | --- | --- |
 | 1 | Test | 2026-05-29 | [src/demo/Test.java](src/demo/Test.java) |
+| 2 | Test2 | 2026-05-29 | [src/demo/Test2.java](src/demo/Test2.java) |
 
 <!-- SOLUTIONS:END -->
-
 ---
 
 ## 🔥 Commit Convention
