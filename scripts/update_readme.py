@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import re
+import subprocess
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 
 
@@ -21,11 +23,13 @@ class Solution:
     title: str
     path: Path
     url: str | None
+    solved_on: str | None
 
 
-def read_metadata(path: Path) -> tuple[str | None, str | None]:
+def read_metadata(path: Path) -> tuple[str | None, str | None, str | None]:
     title = None
     url = None
+    solved_on = None
     for line in path.read_text(encoding="utf-8").splitlines()[:30]:
         match = re.match(r"\s*//\s*(문제|title)\s*:\s*(.+?)\s*$", line, re.IGNORECASE)
         if match:
@@ -35,8 +39,34 @@ def read_metadata(path: Path) -> tuple[str | None, str | None]:
         match = re.match(r"\s*//\s*(URL|link)\s*:\s*(https?://\S+)\s*$", line, re.IGNORECASE)
         if match:
             url = match.group(2)
+            continue
 
-    return title, url
+        match = re.match(r"\s*//\s*(날짜|date|solved|solved_on)\s*:\s*(\d{4}-\d{2}-\d{2})\s*$", line, re.IGNORECASE)
+        if match:
+            solved_on = match.group(2)
+
+    return title, url, solved_on
+
+
+def first_git_commit_date(path: Path) -> str | None:
+    result = subprocess.run(
+        ["git", "log", "--follow", "--diff-filter=A", "--format=%cs", "--", path.relative_to(ROOT).as_posix()],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.DEVNULL,
+        check=False,
+    )
+    dates = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    return dates[-1] if dates else None
+
+
+def file_modified_date(path: Path) -> str:
+    return datetime.fromtimestamp(path.stat().st_mtime).date().isoformat()
+
+
+def solved_date(path: Path, metadata_date: str | None) -> str | None:
+    return metadata_date or first_git_commit_date(path) or file_modified_date(path)
 
 
 def fallback_title(path: Path) -> str:
@@ -56,13 +86,14 @@ def collect_solutions() -> list[Solution]:
     for path in sorted(SRC_DIR.rglob("*.java")):
         relative = path.relative_to(SRC_DIR)
         level = relative.parts[0] if len(relative.parts) > 1 else "기타"
-        title, url = read_metadata(path)
+        title, url, metadata_date = read_metadata(path)
         solutions.append(
             Solution(
                 level=level,
                 title=title or fallback_title(path),
                 path=path.relative_to(ROOT),
                 url=url,
+                solved_on=solved_date(path, metadata_date),
             )
         )
 
@@ -101,14 +132,14 @@ def render_generated(solutions: list[Solution]) -> str:
                 [
                     f"### {level}",
                     "",
-                    "| 번호 | 문제 | 풀이 |",
-                    "| ---: | --- | --- |",
+                    "| 번호 | 문제 | 풀이 날짜 | 풀이 |",
+                    "| ---: | --- | --- | --- |",
                 ]
             )
             for index, solution in enumerate(items, start=1):
                 title = markdown_link(solution.title, solution.url) if solution.url else solution.title.replace("|", "\\|")
                 path = solution.path.as_posix()
-                lines.append(f"| {index} | {title} | {markdown_link(path, path)} |")
+                lines.append(f"| {index} | {title} | {solution.solved_on or '-'} | {markdown_link(path, path)} |")
             lines.append("")
 
     lines.append(END)
