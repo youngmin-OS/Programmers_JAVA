@@ -67,7 +67,7 @@ src
 | 4 | [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
 | 5 | [문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
 | 6 | [숫자 나누고 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
-| 7 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-05-29 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
+| 7 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-06-01 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
 
 <!-- SOLUTIONS:END -->
 ---
