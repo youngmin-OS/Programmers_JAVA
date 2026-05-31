@@ -61,7 +61,7 @@ src
 
 | 번호 | 문제 | 풀이 날짜 | 풀이 |
 | ---: | --- | --- | --- |
-| 1 | UpperToLower | 2026-06-01 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
+| 1 | [대문자 소문자로 변환](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
 | 2 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
 | 3 | [문자열 반복 출력](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
 | 4 | [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
