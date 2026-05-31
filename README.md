@@ -52,8 +52,8 @@ src
 
 ## 풀이 현황
 
-- 총 풀이 수: 8
-- 레벨별 풀이: LV0 8문제
+- 총 풀이 수: 9
+- 레벨별 풀이: LV0 8문제, Lv1 1문제
 
 ## 문제 목록
 
@@ -69,6 +69,12 @@ src
 | 6 | [문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
 | 7 | [숫자 나누고 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
 | 8 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-06-01 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
+
+### Lv1
+
+| 번호 | 문제 | 풀이 날짜 | 풀이 |
+| ---: | --- | --- | --- |
+| 1 | [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128) | 2026-06-01 | [src/Lv1/InnerProduct.java](src/Lv1/InnerProduct.java) |
 
 <!-- SOLUTIONS:END -->
 ---
