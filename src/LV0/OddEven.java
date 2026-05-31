@@ -1,6 +1,6 @@
 // 문제: 홀짝에 따라 다른 값 반환하기
 // URL: https://school.programmers.co.kr/learn/courses/30/lessons/181935
-// 날짜: 2026-05-29
+// 날짜: 2026-06-01
 
 package LV0;
 import java.util.*;
