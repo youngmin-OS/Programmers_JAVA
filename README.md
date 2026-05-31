@@ -61,7 +61,7 @@ src
 
 | 번호 | 문제 | 풀이 날짜 | 풀이 |
 | ---: | --- | --- | --- |
-| 1 | NumAndN | 2026-06-01 | [src/LV0/NumAndN.java](src/LV0/NumAndN.java) |
+| 1 | [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | 2026-06-01 | [src/LV0/NumAndN.java](src/LV0/NumAndN.java) |
 | 2 | [대문자 소문자로 변환](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
 | 3 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
 | 4 | [문자열 반복 출력](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
