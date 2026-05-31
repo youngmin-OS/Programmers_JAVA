@@ -1,3 +1,7 @@
+// 문제: n의 배수
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/181937
+// 날짜: 2026-06-01
+
 package LV0;
 import java.util.*;
 
