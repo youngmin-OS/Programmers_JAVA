@@ -52,8 +52,8 @@ src
 
 ## 풀이 현황
 
-- 총 풀이 수: 9
-- 레벨별 풀이: LV0 7문제, demo 2문제
+- 총 풀이 수: 7
+- 레벨별 풀이: LV0 7문제
 
 ## 문제 목록
 
@@ -61,20 +61,13 @@ src
 
 | 번호 | 문제 | 풀이 날짜 | 풀이 |
 | ---: | --- | --- | --- |
-| 1 | MixTwoString | 2026-06-01 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
-| 2 | NumDivide | 2026-06-01 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
-| 3 | RepeatString | 2026-06-01 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
-| 4 | StringPrint | 2026-06-01 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
-| 5 | UpperToLower | 2026-06-01 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
-| 6 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
-| 7 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-06-01 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
-
-### demo
-
-| 번호 | 문제 | 풀이 날짜 | 풀이 |
-| ---: | --- | --- | --- |
-| 1 | Test | 2026-06-01 | [src/demo/Test.java](src/demo/Test.java) |
-| 2 | Test2 | 2026-06-01 | [src/demo/Test2.java](src/demo/Test2.java) |
+| 1 | UpperToLower | 2026-06-01 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
+| 2 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
+| 3 | [문자열 반복 출력](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
+| 4 | [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
+| 5 | [문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
+| 6 | [숫자 나누고 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
+| 7 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-05-29 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
 
 <!-- SOLUTIONS:END -->
 ---
