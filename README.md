@@ -52,8 +52,8 @@ src
 
 ## 풀이 현황
 
-- 총 풀이 수: 9
-- 레벨별 풀이: LV0 8문제, Lv1 1문제
+- 총 풀이 수: 10
+- 레벨별 풀이: LV0 9문제, Lv1 1문제
 
 ## 문제 목록
 
@@ -64,11 +64,12 @@ src
 | 1 | [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | 2026-06-01 | [src/LV0/NumAndN.java](src/LV0/NumAndN.java) |
 | 2 | [대문자 소문자로 변환](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/UpperToLower.java](src/LV0/UpperToLower.java) |
 | 3 | [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/TwoNum.java](src/LV0/TwoNum.java) |
-| 4 | [문자열 반복 출력](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
-| 5 | [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
-| 6 | [문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
-| 7 | [숫자 나누고 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
-| 8 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-06-01 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
+| 4 | [문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940) | 2026-06-02 | [src/LV0/MyString.java](src/LV0/MyString.java) |
+| 5 | [문자열 반복 출력](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/RepeatString.java](src/LV0/RepeatString.java) |
+| 6 | [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/MixTwoString.java](src/LV0/MixTwoString.java) |
+| 7 | [문자열 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/StringPrint.java](src/LV0/StringPrint.java) |
+| 8 | [숫자 나누고 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938) | 2026-05-29 | [src/LV0/NumDivide.java](src/LV0/NumDivide.java) |
+| 9 | [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935) | 2026-06-01 | [src/LV0/OddEven.java](src/LV0/OddEven.java) |
 
 ### Lv1
 
