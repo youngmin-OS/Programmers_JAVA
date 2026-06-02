@@ -40,7 +40,7 @@ src
 ## 📈 Progress
 
 * LV0 : 진행 중
-* LV1 : 예정
+* LV1 : 진행 중
 * LV2 : 예정
 * LV3 : 예정
 
